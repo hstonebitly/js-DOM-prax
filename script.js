@@ -23,7 +23,6 @@ function createListElement () {
 	li.appendChild(btn);
 	btn.classList.add("del");
 	input.value = "";
-
 	li.onclick = function() {
 		this.classList.toggle("done");
 	}
@@ -42,10 +41,6 @@ function addListAfterKeypress(event) {
 	if (inputLength() > 0 && event.keyCode === 13) {
 		createListElement();
 	}
-}
-
-function crossOff(event) {
-	this.classList.toggle("done")
 }
 
 button.addEventListener("click", addListAfterClick)
