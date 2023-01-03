@@ -1,0 +1,36 @@
+html {
+	font-family: Helvetica;
+}
+
+h1 {
+	font-family: Helvetica;
+}
+
+h2 {
+	color: darkred;
+}
+
+.done {
+	text-decoration: line-through;
+}
+
+.del {
+	margin-left: 10px;
+	margin-top: 5px;
+	background-color: red;
+	color: white;
+	text-shadow: 1px;
+}
+
+.del:hover {
+	cursor: pointer;
+}
+
+#enter {
+	background-color: black;
+	color: greenyellow;
+}
+
+li:hover {
+	cursor: crosshair;
+}
