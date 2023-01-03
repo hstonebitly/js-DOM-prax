@@ -1,10 +1,3 @@
-// var button = document.getElementsByTagName("button")[0];
-
-// button.addEventListener("mouseleave", function() {
-// 	console.log("CLICK!!!");
-// })
-
-
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
