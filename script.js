@@ -1,6 +1,11 @@
 var button = document.getElementById("enter");
 var input = document.getElementById("userinput");
 var ul = document.querySelector("ul");
+const items = document.querySelectorAll("li")
+
+function crossOff() {
+	this.classList.toggle("done");
+}
 
 function inputLength () {
 	return input.value.length;
@@ -38,3 +43,7 @@ function addListAfterKeypress(event) {
 
 button.addEventListener("click", addListAfterClick)
 input.addEventListener("keypress", addListAfterKeypress)
+items.forEach(function () {
+	for (var i=0; i<items.length; i++)
+	items[i].addEventListener("click", crossOff)
+})

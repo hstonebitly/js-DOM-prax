@@ -1,5 +1,6 @@
 html {
 	font-family: Helvetica;
+	text-align: center;
 }
 
 h1 {
@@ -8,6 +9,11 @@ h1 {
 
 h2 {
 	color: darkred;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-type: none;
 }
 
 .done {
@@ -26,11 +32,16 @@ h2 {
 	cursor: pointer;
 }
 
+.mainlist {
+	font-family: cursive;
+	background-color: lightyellow;
+}
+
 #enter {
 	background-color: black;
 	color: greenyellow;
 }
 
-li:hover {
+li:hover span {
 	cursor: crosshair;
 }
